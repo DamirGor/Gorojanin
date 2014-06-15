@@ -18,7 +18,6 @@
         <activity android:name="com.app.citizen.poll.DetailActivity"></activity>
         <activity android:name="com.app.citizen.poll.start.Recovery"></activity>
         <activity android:name="com.app.citizen.poll.menu.PollsActivity"></activity>
-        <activity android:name="com.app.citizen.poll.MainMenu.SampleActivity"></activity>
         <activity android:name="com.app.citizen.poll.MainMenu.slideout.SlideoutActivity"></activity>
         <activity android:name="com.app.citizen.poll.activity.VoteActivity"></activity>
     </application>

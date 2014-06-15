@@ -17,7 +17,6 @@ public class ListFrag extends ListFragment {
 
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
-
         super.onActivityCreated(savedInstanceState);
         String[] values = new String[]{"Опросы", "Мои баллы", "Профиль", "Новости", "О приложении"};
         // задаем массив куда будем выводить и что

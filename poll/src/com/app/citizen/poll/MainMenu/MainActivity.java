@@ -15,6 +15,7 @@ public class MainActivity extends FragmentActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         mSlideoutHelper = new SlideoutHelper(this);
+        setContentView(R.layout.main);
         mSlideoutHelper.activate();
         getSupportFragmentManager().beginTransaction().add(R.id.slideout_placeholder, new ListFrag()).commit();
         mSlideoutHelper.open();
@@ -22,7 +23,7 @@ public class MainActivity extends FragmentActivity {
 
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
-        if(keyCode == KeyEvent.KEYCODE_BACK){
+        if (keyCode == KeyEvent.KEYCODE_BACK) {
             mSlideoutHelper.close();
             return true;
         }
@@ -30,7 +31,7 @@ public class MainActivity extends FragmentActivity {
     }
 
 
-    public SlideoutHelper getSlideoutHelper(){
+    public SlideoutHelper getSlideoutHelper() {
         return mSlideoutHelper;
     }
 
