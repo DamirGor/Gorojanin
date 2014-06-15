@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+              android:id="@+id/inner_content"
+              android:layout_height="match_parent"
+              android:orientation="horizontal">
+      <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="45dip"
+            android:paddingLeft="2dip"
+            android:paddingRight="2dip"
+            android:background="#bb000000">
+
+        <Button style="@android:style/Widget.Button.Small"
+                android:id="@+id/sample_button"
+                android:layout_width="35dip"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:text=">" />
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_toRightOf="@id/sample_button"
+                  android:layout_centerVertical="true"
+                  android:textSize="19sp"
+                  android:textColor="#ffffff"
+                  android:text="Опросы"/>
+    </RelativeLayout>
+    <fragment
+            android:id="@+id/listFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            class="com.app.citizen.poll.menu.PollsFragment" tools:layout="@layout/simple_list_item_1"/>
+</RelativeLayout>
