@@ -20,8 +20,20 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name="com.app.citizen.poll.MainMenu.MainActivity">
+
+        <!--Poll Application properties start-->
+        <activity android:name="com.app.citizen.poll.start.Authorization">
         </activity>
+
+        <activity android:name="com.app.citizen.poll.MainMenu.MainActivity"></activity>
+        <activity android:name="com.app.citizen.poll.start.Registration"></activity>
+        <activity android:name="com.app.citizen.poll.DetailActivity"></activity>
+        <activity android:name="com.app.citizen.poll.start.Recovery"></activity>
+        <activity android:name="com.app.citizen.poll.menu.PollsActivity"></activity>
+        <activity android:name="com.app.citizen.poll.MainMenu.slideout.SlideoutActivity"></activity>
+        <activity android:name="com.app.citizen.poll.activity.VoteActivity"></activity>
+
+        <!--Poll Application properties end-->
     </application>
 
 </manifest>
