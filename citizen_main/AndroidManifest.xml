@@ -34,8 +34,12 @@
         <activity android:name="com.app.citizen.poll.activity.VoteActivity"></activity>
         <activity android:name="com.app.citizen.poll.menu.FeedbackActivity"></activity>
         <activity android:name="com.app.citizen.poll.menu.AboutTheApp"></activity>
-
         <!--Poll Application properties end-->
+
+        <!--Landmark Application properties start-->
+        <activity android:name="com.example.landmark.SightListActivity"></activity>
+        <activity android:name="com.example.landmark.FragmentActivity"></activity>
+        <!--Landmark Application properties end-->
     </application>
 
 </manifest>
