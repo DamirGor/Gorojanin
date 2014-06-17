@@ -10,6 +10,7 @@ import android.support.v4.app.ListFragment;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import com.app.citizen.poll.menu.AboutTheApp;
 import com.app.citizen.poll.menu.PollsActivity;
 
 
@@ -40,6 +41,10 @@ public class ListFrag extends ListFragment {
             case 0:
                 Intent intent = new Intent(getActivity().getApplicationContext(), PollsActivity.class);
                 startActivity(intent);
+                break;
+            case 4:
+                Intent intent1 = new Intent(getActivity().getApplicationContext(), AboutTheApp.class);
+                startActivity(intent1);
                 break;
         }
         //вызываем интент и передаем на него параметр кликнутого елемента

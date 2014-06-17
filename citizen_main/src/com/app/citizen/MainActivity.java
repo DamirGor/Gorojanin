@@ -21,7 +21,6 @@ public class MainActivity extends Activity implements OnClickListener {
         setContentView(R.layout.activity_main);
         hum_btn = (ImageButton) findViewById(R.id.human);
         hum_btn.setOnClickListener(this);
-        System.out.println("sdgdfgf");
     }
 
     @Override
