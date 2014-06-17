@@ -34,10 +34,13 @@ public class MainActivity extends Activity implements OnClickListener {
     @Override
     public void onClick(View v) {
         // TODO Auto-generated method stub
-        int i = v.getId();
-        if (i == R.id.human) {
-            Intent intent = new Intent(getApplicationContext(), Authorization.class);
-            startActivity(intent);
+        switch (v.getId()) {
+            case R.id.human: {
+                //пишем активити на которое надо перейти
+                Intent intent = new Intent(getApplicationContext(), Authorization.class);
+                startActivity(intent);
+                break;
+            }
         }
     }
 
