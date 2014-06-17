@@ -58,7 +58,7 @@ public class DataManager {
         question22.setQuestion("Из какого вы района?");
         question22.setPossAnswers(Arrays.asList("Авиастроительный", "Вахитовский", "Кировский", "Московский"));
 
-        ArrayList<Question> arrayList2 = new ArrayList<>();
+        ArrayList<Question> arrayList2 = new ArrayList<Question>();
         arrayList2.add(question22);
         arrayList2.add(question21);
         poll1.setQuestions(arrayList2);

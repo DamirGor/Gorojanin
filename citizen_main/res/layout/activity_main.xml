@@ -5,101 +5,125 @@
                 android:background="@drawable/myimage"
                 tools:context=".MainActivity">
 
+
+
+
     <TableLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:layout_alignParentRight="true"
             android:layout_alignParentTop="true"
-            android:layout_marginTop="100dp">
+            >
 
         <TableRow
                 android:id="@+id/tableRow1"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="220dp"
+                >
             <ImageButton
                     android:id="@+id/human"
-                    android:layout_height="120dp"
-                    android:layout_margin="-5dp"
-                    android:layout_weight="1"
-                    android:background="#421e07"
-                    android:padding="-5dp"
-                    android:src="@drawable/human"/>
-
+                    android:layout_width="wrap_content"
+                    android:layout_weight="33"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/main_button10"
+                    android:background="@color/white"/>
             <ImageButton
                     android:id="@+id/imageButton2"
-                    android:layout_width="110dp"
-                    android:layout_height="120dp"
-                    android:layout_weight="1"
-                    android:background="#421e07"
-                    android:src="@drawable/round1"/>
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="33"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/main_button2"
+                    android:background="@color/white"/>
 
             <ImageButton
                     android:id="@+id/imageButton3"
-                    android:layout_width="110dp"
-                    android:layout_height="120dp"
-                    android:layout_weight="1"
-                    android:background="#421e07"
-                    android:src="@drawable/round1"/>
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="33"
+                    android:layout_width="wrap_content"
+                    android:background="@color/white"
+                    android:padding="-5dp"
+                    android:src="@drawable/main_button3"/>
+
         </TableRow>
 
         <TableRow
                 android:id="@+id/tableRow2"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_marginTop="75dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                >
 
             <ImageButton
                     android:id="@+id/imageButton4"
-                    android:layout_width="105dp"
-                    android:layout_height="120dp"
-                    android:layout_margin="-5dp"
-                    android:background="#421e07"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="33"
+                    android:background="@color/white"
                     android:padding="-5dp"
-                    android:src="@drawable/round1"/>
+                    android:src="@drawable/main_button4"/>
 
             <ImageButton
                     android:id="@+id/imageButton5"
-                    android:layout_width="110dp"
-                    android:layout_height="120dp"
-                    android:background="#421e07"
-                    android:src="@drawable/round1"/>
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="33"
+                    android:background="@color/white"
+                    android:src="@drawable/main_button5"/>
 
             <ImageButton
                     android:id="@+id/imageButton6"
-                    android:layout_width="110dp"
-                    android:layout_height="120dp"
-                    android:background="#421e07"
-                    android:src="@drawable/round1"/>
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="33"
+                    android:background="@color/white"
+                    android:src="@drawable/main_button6"/>
         </TableRow>
 
         <TableRow
                 android:id="@+id/tableRow3"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_marginTop="75dp"
+                android:layout_marginRight="10dp"
+
+                android:layout_marginLeft="10dp">
 
             <ImageButton
                     android:id="@+id/imageButton7"
-                    android:layout_width="105dp"
-                    android:layout_height="120dp"
-                    android:layout_margin="-5dp"
-                    android:background="#421e07"
-                    android:padding="-5dp"
-                    android:src="@drawable/round1"/>
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="33"
+                    android:background="@color/white"
+                    android:padding="5dp"
+                    android:src="@drawable/main_button7"/>
 
             <ImageButton
                     android:id="@+id/imageButton8"
-                    android:layout_width="110dp"
-                    android:layout_height="120dp"
-                    android:background="#421e07"
-                    android:src="@drawable/round1"/>
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="33"
+                    android:background="@color/white"
+                    android:src="@drawable/main_button8"/>
 
             <ImageButton
                     android:id="@+id/imageButton9"
-                    android:layout_width="110dp"
-                    android:layout_height="120dp"
-                    android:background="#421e07"
-                    android:src="@drawable/round1"/>
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="33"
+                    android:background="@color/white"
+                    android:src="@drawable/main_button9"/>
         </TableRow>
     </TableLayout>
 

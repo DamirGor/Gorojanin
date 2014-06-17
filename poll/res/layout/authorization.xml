@@ -3,15 +3,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 android:orientation="vertical"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent" android:background="@drawable/activ">
 
-    <EditText
-            android:layout_width="248dp"
-            android:layout_height="wrap_content"
-            android:inputType="phone"
-            android:ems="10"
-            android:id="@+id/editPhone"
-            android:layout_below="@+id/question_text" android:layout_centerHorizontal="true"/>
     <EditText
             android:layout_width="248dp"
             android:layout_height="wrap_content"
@@ -40,11 +33,25 @@
             android:text="Регистрация"
             android:id="@+id/buttonReg" android:layout_below="@+id/buttonLogin"
             android:layout_toLeftOf="@+id/buttonLogin"/>
-    <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Авторизация"
-            android:id="@+id/question_text" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"
-            android:layout_marginTop="79dp"/>
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentTop="true" android:layout_alignParentLeft="true">
+        <EditText
+                android:layout_width="248dp"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:ems="10"
+                android:id="@+id/editPhone"
+                android:layout_marginTop="327dp" android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Авторизация"
+                android:id="@+id/question_text"
+                android:layout_alignBottom="@+id/editPhone" android:layout_centerHorizontal="true"
+                android:layout_marginBottom="58dp"/>
+    </RelativeLayout>
 </RelativeLayout>
