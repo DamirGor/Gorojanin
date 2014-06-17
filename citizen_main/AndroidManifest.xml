@@ -32,6 +32,8 @@
         <activity android:name="com.app.citizen.poll.menu.PollsActivity"></activity>
         <activity android:name="com.app.citizen.poll.MainMenu.slideout.SlideoutActivity"></activity>
         <activity android:name="com.app.citizen.poll.activity.VoteActivity"></activity>
+        <activity android:name="com.app.citizen.poll.menu.FeedbackActivity"></activity>
+        <activity android:name="com.app.citizen.poll.menu.AboutTheApp"></activity>
 
         <!--Poll Application properties end-->
     </application>
