@@ -19,7 +19,7 @@ public class HospitalActivity extends Activity {
     int myDay = 20;
     TextView tvDate;
 
-    TextView tvDate2;
+
     String[] data = {"поликлиника №7", "поликлиника №11", "гор больница №5"};
 
     /** Called when the activity is first created. */
@@ -28,7 +28,7 @@ public class HospitalActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.hospital);
         tvDate = (TextView) findViewById(R.id.tvDate);
-        tvDate2 = (TextView) findViewById(R.id.tvDate);
+
 
         // адаптер
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, data);
@@ -80,13 +80,12 @@ public class HospitalActivity extends Activity {
             myMonth = monthOfYear;
             myDay = dayOfMonth;
             //todo КОСТЫЛЬ
-            if (myDay == 20 || myDay == 22) {
+            if (myDay >= 20 || myDay <= 25) {
 
                 tvDate.setText("Запись на " + myDay + "/" + myMonth + "/" + myYear + " ЗАНЯТА ");
 
-                tvDate2.setText("Попробуйте " + myDay+1 + "/" + myMonth + "/" + myYear);
             } else {
-                tvDate2.setText("");
+
                 tvDate.setText("Запись на " + myDay + "/" + myMonth + "/" + myYear + " свободна");
 
             }
