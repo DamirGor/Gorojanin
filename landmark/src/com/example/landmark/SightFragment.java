@@ -34,7 +34,7 @@ public class SightFragment extends Fragment {
 		mWv = (WebView)v.findViewById(R.id.sight_webview);
 		mImage.setImageResource(mSight.getSdrawable());
 		mWv.loadUrl("file:///android_asset/html/" + mSight.getSlink());
-		
+
 		return v;
 	}
 }

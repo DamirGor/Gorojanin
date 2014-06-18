@@ -16,7 +16,7 @@ public class SightDataBase extends SQLiteOpenHelper {
 
 	private final Context fContext;
 	
-	static final String dbName = "SightDB0";
+	static final String dbName = "SightDB01";
 	static final String sight_table = "Sights";
 	
 	public SightDataBase(Context context) {
