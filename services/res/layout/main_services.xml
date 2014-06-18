@@ -2,23 +2,35 @@
 
 <RelativeLayout
         android:layout_width="fill_parent"
+<<<<<<< HEAD
         android:layout_height="fill_parent"
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:background="@drawable/priem">
+=======
+        android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+>>>>>>> FETCH_HEAD
     <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Записаться на прием"
             android:id="@+id/btn_hospital"
+<<<<<<< HEAD
             android:layout_marginTop="220dp"
             android:layout_alignParentTop="true"
+=======
+            android:layout_marginTop="146dp" android:layout_alignParentTop="true"
+>>>>>>> FETCH_HEAD
             android:layout_centerHorizontal="true"/>
     <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Посмотреть штрафы"
             android:id="@+id/btn_fines"
+<<<<<<< HEAD
             android:layout_marginTop="150dp"
             android:layout_below="@+id/btn_hospital"
             android:layout_alignLeft="@+id/btn_hospital"/>
+=======
+            android:layout_marginTop="107dp" android:layout_below="@+id/btn_hospital" android:layout_alignLeft="@+id/btn_hospital"/>
+>>>>>>> FETCH_HEAD
 </RelativeLayout>

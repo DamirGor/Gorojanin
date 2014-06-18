@@ -1,5 +1,6 @@
 package com.app.citizen.services.activity;
 
+<<<<<<< HEAD
 import android.app.Activity;
 import android.app.DatePickerDialog;
 import android.app.Dialog;
@@ -91,4 +92,10 @@ public class HospitalActivity extends Activity {
             }
         }
     };
+=======
+/**
+ * Created by ainurminibaev on 18.06.14.
+ */
+public class HospitalActivity {
+>>>>>>> FETCH_HEAD
 }

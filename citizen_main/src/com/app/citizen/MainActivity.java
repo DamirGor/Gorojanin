@@ -9,7 +9,11 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ImageButton;
 import com.app.citizen.poll.start.Authorization;
+<<<<<<< HEAD
 import com.app.citizen.services.activity.ServicesMainActivity;
+=======
+import com.example.landmark.SightListActivity;
+>>>>>>> FETCH_HEAD
 import com.app.ciziten.R;
 import com.example.landmark.SightListActivity;
 
@@ -18,7 +22,10 @@ public class MainActivity extends Activity implements OnClickListener {
 
     ImageButton hum_btn;
     ImageButton btn2;
+<<<<<<< HEAD
     ImageButton btn3;
+=======
+>>>>>>> FETCH_HEAD
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,12 +34,18 @@ public class MainActivity extends Activity implements OnClickListener {
 
         hum_btn = (ImageButton) findViewById(R.id.human);
         hum_btn.setOnClickListener(this);
+<<<<<<< HEAD
 
         btn2 = (ImageButton) findViewById(R.id.imageButton4);
         btn2.setOnClickListener(this);
 
         btn3 = (ImageButton) findViewById(R.id.imageButton3);
         btn3.setOnClickListener(this);
+=======
+        System.out.println("sdgdfgf");
+        btn2 = (ImageButton) findViewById(R.id.imageButton2);
+        btn2.setOnClickListener(this);
+>>>>>>> FETCH_HEAD
     }
 
     @Override
@@ -51,6 +64,7 @@ public class MainActivity extends Activity implements OnClickListener {
                 Intent intent = new Intent(getApplicationContext(), Authorization.class);
                 startActivity(intent);
                 break;
+<<<<<<< HEAD
             case R.id.imageButton4 :
                 Intent intent2 = new Intent(this, SightListActivity.class);
                 startActivity(intent2);
@@ -60,6 +74,12 @@ public class MainActivity extends Activity implements OnClickListener {
                 startActivity(intent3);
                 break;
 
+=======
+            case R.id.imageButton2 :
+                Intent intent1 = new Intent(this, SightListActivity.class);
+                startActivity(intent1);
+                break;
+>>>>>>> FETCH_HEAD
 
         }
     }
