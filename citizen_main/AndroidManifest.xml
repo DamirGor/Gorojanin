@@ -36,8 +36,6 @@
         <activity android:name="com.app.citizen.poll.menu.AboutTheApp"></activity>
         <!--Poll Application properties end-->
 
-<<<<<<< HEAD
-
         <!--Servise Application properties start-->
         <activity android:name="com.app.citizen.services.activity.ServicesMainActivity"></activity>
 
@@ -46,8 +44,6 @@
         <!--Servise Application properties end-->
 
 
-=======
->>>>>>> FETCH_HEAD
         <!--Landmark Application properties start-->
         <activity android:name="com.example.landmark.SightListActivity"></activity>
         <activity android:name="com.example.landmark.FragmentActivity"></activity>
