@@ -10,7 +10,6 @@ import android.widget.TextView;
 import com.app.citizen.poll.R;
 import com.app.citizen.poll.model.Poll;
 
-
 import java.util.List;
 
 /**

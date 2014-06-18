@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import com.app.citizen.poll.R;
 
+
 /**
  * Created by ramis on 6/17/14.
  */

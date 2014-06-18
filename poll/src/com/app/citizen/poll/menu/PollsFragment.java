@@ -10,7 +10,6 @@ import com.app.citizen.poll.adapter.PollsAdapter;
 import com.app.citizen.poll.model.Poll;
 import com.app.citizen.poll.util.DataManager;
 
-
 import java.util.List;
 
 /**

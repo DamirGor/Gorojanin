@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sight >
+    <record name="Государственный русский драматический театр им. А. Баталова"  sight_link="theatr.html" drawable_link="0x7f020000"></record>
+	<record name="Церковь Казанской иконы Божьей Матери"  sight_link="cerk.html" drawable_link="0x7f020001"></record>
+	<record name="Вечный огонь"  sight_link="fire.html" drawable_link="0x7f020011"></record>
+</sight>
