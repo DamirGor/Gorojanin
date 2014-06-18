@@ -6,10 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import com.app.citizen.services.R;
 
-<<<<<<< HEAD
 
-=======
->>>>>>> FETCH_HEAD
 /**
  * Created by ainurminibaev on 18.06.14.
  */
