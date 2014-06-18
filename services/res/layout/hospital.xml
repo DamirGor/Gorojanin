@@ -29,18 +29,7 @@
             android:layout_marginRight="60dp"
             android:layout_marginTop="350dp">
     </TextView>
-    <TextView
-            android:id="@+id/tvDate2"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:clickable="true"
-            android:onClick="onclick"
-            android:text=""
-            android:textSize="22sp"
-            android:layout_marginLeft="60dp"
-            android:layout_marginRight="60dp"
-            android:layout_marginTop="380dp">
-    </TextView>
+    
 
 
 </RelativeLayout>
