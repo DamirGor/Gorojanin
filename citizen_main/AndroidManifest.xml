@@ -22,18 +22,26 @@
         </activity>
 
         <!--Poll Application properties start-->
-        <activity android:name="com.app.citizen.poll.start.Authorization">
-        </activity>
-
-        <activity android:name="com.app.citizen.poll.MainMenu.MainActivity"></activity>
-        <activity android:name="com.app.citizen.poll.start.Registration"></activity>
-        <activity android:name="com.app.citizen.poll.DetailActivity"></activity>
-        <activity android:name="com.app.citizen.poll.start.Recovery"></activity>
-        <activity android:name="com.app.citizen.poll.menu.PollsActivity"></activity>
-        <activity android:name="com.app.citizen.poll.MainMenu.slideout.SlideoutActivity"></activity>
-        <activity android:name="com.app.citizen.poll.activity.VoteActivity"></activity>
-        <activity android:name="com.app.citizen.poll.menu.FeedbackActivity"></activity>
-        <activity android:name="com.app.citizen.poll.menu.AboutTheApp"></activity>
+        <activity android:name="com.app.citizen.poll.start.Authorization"
+                  android:theme="@style/MenuTheme"></activity>
+        <activity android:name="com.app.citizen.poll.MainMenu.MainActivity"
+                  android:theme="@style/MenuTheme"></activity>
+        <activity android:name="com.app.citizen.poll.start.Registration"
+                  android:theme="@style/MenuTheme"></activity>
+        <activity android:name="com.app.citizen.poll.DetailActivity"
+                  android:theme="@style/MenuTheme"></activity>
+        <activity android:name="com.app.citizen.poll.start.Recovery"
+                  android:theme="@style/MenuTheme"></activity>
+        <activity android:name="com.app.citizen.poll.menu.PollsActivity"
+                  android:theme="@style/MenuTheme"></activity>
+        <activity android:name="com.app.citizen.poll.MainMenu.slideout.SlideoutActivity"
+                  android:theme="@style/MenuTheme"></activity>
+        <activity android:name="com.app.citizen.poll.activity.VoteActivity"
+                  android:theme="@style/MenuTheme"></activity>
+        <activity android:name="com.app.citizen.poll.menu.FeedbackActivity"
+                  android:theme="@style/MenuTheme"></activity>
+        <activity android:name="com.app.citizen.poll.menu.AboutTheApp"
+                  android:theme="@style/MenuTheme"></activity>
         <!--Poll Application properties end-->
 
         <!--Servise Application properties start-->
